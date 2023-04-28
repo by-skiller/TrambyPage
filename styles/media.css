@@ -1,0 +1,51 @@
+@media screen and (max-width: 760px) {
+    header {
+        flex-direction: column;
+    }
+
+    #logo {
+     font-size: 15px;
+     margin: 0;
+     text-align: center;
+    }
+
+    #menu {
+        margin: 0;
+    }
+    #menu > a {
+        margin: 2px;
+        font-size: 12px;
+    }
+    #menubt {
+        padding: 6px;
+    }
+
+    main {
+        margin: -10px;
+        flex-direction: column;
+    }
+
+    h2 {
+        align-self: center;
+        padding-left: 40px;
+        margin: 0;
+        width: 90%;
+        font-size: 36px;
+        margin-bottom: 20px;
+    }
+    p {
+        align-self: center;
+       
+    }
+
+    aside > a {
+        align-self: center;
+        font-size: 25px;
+        padding: 10px;
+    
+    }
+
+    img {
+        display: none;
+    }
+}
